@@ -1,0 +1,50 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+    font-family: "Heldane Display";
+    src: url("../fonts/Heldane Display.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/Heldane Display.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/Heldane Display.otf") format("opentype"), /* Open Type Font */
+      url("../fonts/Heldane Display.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/Heldane Display.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../fonts/Heldane Display.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/Heldane Display.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    color:#0f1726;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Heldane Display' !important;
+}
+.jumbotron {
+    margin-top:70px;
+    background: #FFFFFF;
+    text-align: left;
+}
+.fixed-navbar {
+    padding: 15px;
+    background: #FFF;
+    position:fixed;
+    z-index:10000;
+    width: 100%;
+    opacity:90%;
+    border-bottom: 1px solid ABABAB;
+}
+.meaning {
+    font-size:12px;
+    color:#CCCCCC;
+}
+.sub-meaning {
+    margin-left:15px;
+}
+
+.bwphoto {
+    filter: grayscale(100%);
+    margin-bottom:10px;
+}
+.bwphoto:hover {
+    filter: grayscale(85%);
+}
